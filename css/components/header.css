@@ -99,17 +99,27 @@
     }
 
     .header__content{
-        gap: 10px;
-        justify-content: center;
-        flex-wrap: wrap;
+        gap: 25px;
     }
 
     .menu__list{
         gap: 10px;
     }
 
+    .contact{
+        gap: 5px;
+    }
+
     .contact__img{
-        width: 16px;
-        height: 16px;
+        width: 14px;
+        height: 14px;
+    }
+}
+
+@media (max-width: 375px) {
+    .header__content{
+        justify-content: center;
+        gap: 10px;
+        flex-wrap: wrap;
     }
 }
