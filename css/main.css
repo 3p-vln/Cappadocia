@@ -1,0 +1,15 @@
+@import "config/reset.css";
+@import "config/fonts.css";
+
+/*components*/
+@import "components/header.css";
+
+.container{
+    max-width: 1230px;
+    padding: 0 15px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+
+
