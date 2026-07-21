@@ -6,6 +6,7 @@
 @import "components/banner.css";
 @import "components/fairy-tail.css";
 @import "components/our-trip.css";
+@import "components/hotel.css";
 
 .container{
     max-width: 1230px;
