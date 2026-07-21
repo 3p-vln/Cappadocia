@@ -5,6 +5,7 @@
 @import "components/header.css";
 @import "components/banner.css";
 @import "components/fairy-tail.css";
+@import "components/our-trip.css";
 
 .container{
     max-width: 1230px;

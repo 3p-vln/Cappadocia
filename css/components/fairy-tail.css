@@ -11,7 +11,7 @@
 
 .fairy-tail__subtitle{
     font-family: RobotoCondensed-Lightitalic;
-    font-size: clamp(14px, 1.5vw, 24px);
+    font-size: clamp(8px, 1.5vw, 24px);
     position: relative;
     margin-left: 9.4vw;
     bottom: 1.3vw;
@@ -22,7 +22,7 @@
     margin-top: 75px;
 }
 
-/*swoper*/
+/*swiper*/
 .info__swiper{
     max-width: 50vw;
     aspect-ratio: 1.37/1;
