@@ -124,6 +124,7 @@
 
     .price__list{
         gap: 10px;
+        margin-bottom: 20px;
     }
 
     .price__list-title{
