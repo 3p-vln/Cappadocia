@@ -1,0 +1,137 @@
+.footer{
+    background: url("../../img/footer-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 200px;
+    padding: 95px 0 513px;
+}
+
+.footer__content{
+    display: flex;
+    font-family: RobotoCondensed-Regular;
+    font-size: clamp(14px, 1.5vw, 18px);
+    justify-content: space-between;
+}
+
+.footer__contacts{
+    background: url("../../img/svg/white-balloon.svg");
+    background-repeat: no-repeat;
+    width: 356px;
+    height: 572px;
+    margin-left: 6vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 188px;
+    padding-top: 29px;
+}
+
+.footer__title{
+    font-family: balqis;
+    font-size: clamp(26px, 5vw, 86px);
+    color: #E2AB3F;
+    margin-bottom: 21px;
+}
+
+.footer__phone,
+.footer__mail{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.footer__phone img,
+.footer__mail img{
+    width: 30px;
+    height: 30px;
+}
+
+.footer__social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 25px;
+}
+
+.footer__text{
+    font-family: balqis;
+    font-size: clamp(36px, 5vw, 86px);
+    display: flex;
+    align-items: center;
+    padding-bottom: 22px;
+}
+
+@media (max-width: 1440px) {
+    .footer {
+        padding: 95px 0 215px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .footer__contacts {
+        background-size: cover;
+        width: 300px;
+        height: 445px;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer {
+        margin-top: 50px;
+    }
+
+    .footer__contacts {
+        padding-top: 87px;
+        width: 255px;
+        height: 378px;
+    }
+
+    .footer__title {
+        margin-bottom: 5px;
+    }
+
+    .footer__phone img,
+    .footer__mail img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .footer__phone,
+    .footer__mail {
+        gap: 5px;
+        margin-bottom: 5px;
+    }
+
+    .footer__social {
+        gap: 5px;
+        margin-top: 15px;
+    }
+
+    .footer__youtube,
+    .footer__facebook,
+    .footer__inst{
+        width: 25px;
+        height: 25px;
+    }
+}
+
+@media (max-width: 576px) {
+    .footer {
+        padding: 50px 0 50px;
+    }
+
+    .footer__content {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .footer__text {
+        font-size: 48px;
+        padding-bottom: 5px;
+    }
+}

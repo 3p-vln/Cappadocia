@@ -9,6 +9,7 @@
 @import "components/hotel.css";
 @import "components/price.css";
 @import "components/contact-form.css";
+@import "components/footer.css";
 
 .container{
     max-width: 1230px;
