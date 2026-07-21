@@ -1,0 +1,134 @@
+.price{
+    margin-top: 200px;
+}
+
+.price__content{
+    position: relative;
+}
+
+.price__title{
+    font-family: balqis;
+    font-size: clamp(36px, 5vw, 96px);
+    color: #E2AB3F;
+}
+
+.price__subtitle{
+    font-family: RobotoCondensed-Lightitalic;
+    font-size: clamp(14px, 1.5vw, 24px);
+    position: relative;
+    margin-left: 6.3vw;
+    bottom: 1.4vw;
+}
+
+.price__info{
+    display: flex;
+    font-family: RobotoCondensed-Regular;
+    font-size: clamp(14px, 1.5vw, 18px);
+    margin-top: 75px;
+    max-width: 910px;
+    gap: 50px;
+    justify-content: space-between;
+}
+
+.price__list-title{
+    font-weight: 600;
+    font-size: clamp(16px, 1.5vw, 24px);
+    margin-bottom: 50px;
+    position: relative;
+    z-index: 3;
+}
+
+.price__list{
+    max-width: 485px;
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+    letter-spacing: -0.2px;
+    position: relative;
+    z-index: 5;
+}
+
+.balloon{
+    position: absolute;
+    z-index: 0;
+    top: 118px;
+    right: -105px;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.balloon__first,
+.balloon__second{
+    width: 73px;
+    height: 108px;
+    position: relative;
+}
+
+.balloon__first{
+    position: absolute;
+    left: -115px;
+    bottom: 138px;
+}
+
+.balloon__second{
+    right: 42px;
+    top: 29px;
+}
+
+.balloon__third{
+    width: 206px;
+    height: 305px;
+}
+
+@media (max-width: 1440px) {
+    .price__info{
+        margin-top: 25px;
+    }
+
+    .balloon{
+        right: 0;
+        top: 100px;
+    }
+
+    .balloon__first,
+    .balloon__second{
+        width: 54px;
+        height: 80px;
+    }
+
+    .balloon__first {
+        left: -90px;
+        bottom: 100px;
+    }
+
+    .balloon__second{
+        right: 30px;
+        top: 0;
+    }
+
+    .balloon__third {
+        width: 150px;
+        height: 223px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .price {
+        margin-top: 50px;
+    }
+
+    .price__info {
+        gap: 25px;
+        justify-content: flex-start;
+    }
+}
+
+@media (max-width: 576px) {
+    .balloon{
+        opacity: 0.5;
+    }
+
+    .price__info{
+        flex-direction: column;
+    }
+}
