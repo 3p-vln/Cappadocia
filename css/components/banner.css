@@ -1,0 +1,44 @@
+.banner{
+    aspect-ratio: 16/9;
+    background-image: url('../../img/main.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner__content{
+    margin-bottom: 20%;
+    margin-right: 5%;
+    position: relative;
+}
+
+.banner__title {
+    font-family: balqis;
+    font-size: clamp(50px, 20vw, 250px);
+    text-align: center;
+}
+
+.banner__text{
+    font-family: RobotoCondensed-Lightitalic;
+    font-size: clamp(16px, 5vw, 56px);
+    text-align: right;
+    position: absolute;
+    right: 6.5%;
+    bottom: 2%;
+ }
+
+@media (max-width: 1440px) {
+    .banner__content{
+        margin-bottom: 13%;
+    }
+}
+
+@media (max-width: 768px) {
+    .banner{
+        aspect-ratio: 1 / 1.3;
+    }
+
+}
