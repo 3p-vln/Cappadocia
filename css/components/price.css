@@ -121,6 +121,14 @@
         gap: 25px;
         justify-content: flex-start;
     }
+
+    .price__list{
+        gap: 10px;
+    }
+
+    .price__list-title{
+        margin-bottom: 25px;
+    }
 }
 
 @media (max-width: 576px) {
