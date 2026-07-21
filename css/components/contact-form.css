@@ -1,0 +1,148 @@
+.contact-form{
+    margin-top: 198px;
+}
+
+.contact-form__content{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.contact-form__info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 550px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.date,
+.cost{
+    margin-bottom: -8px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.date{
+    margin-right: 58px;
+}
+
+.cost{
+    margin-left: 55px;
+    margin-bottom: 102px;
+}
+
+.date__day,
+.cost__summ{
+    font-family: balqis;
+    font-size: clamp(36px, 5vw, 96px);
+    color: #E2AB3F;
+}
+
+.date__text,
+.cost__text{
+    font-family: RobotoCondensed-Lightitalic;
+    font-size: clamp(14px, 1.5vw, 24px);
+    position: absolute;
+}
+
+.date__text{
+    bottom: -2px;
+    right: -3.4vw;
+}
+
+.cost__text{
+    bottom: -7px;
+    right: -2.9vw;
+}
+
+.form{
+    max-width: 383px;
+    margin-left: 2.1vw;
+}
+
+.form__title{
+    font-family: RobotoCondensed-Regular;
+    font-size: clamp(16px, 1.5vw, 24px);
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.form__contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.form__name,
+.form__phone{
+    font-family: RobotoCondensed-Regular;
+    font-size: clamp(14px, 1.5vw, 18px);
+    padding: 13px 30px;
+    border: 1px solid #E2AB3F;
+    width: 100%;
+}
+
+.form__submit{
+    padding: 11px 40px;
+    border: 1px solid #E2AB3F;
+}
+
+@media (max-width: 1440px) {
+    .contact-form__info{
+        max-width: 414px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .contact-form {
+        margin-top: 100px;
+    }
+}
+
+@media (max-width: 768px) {
+    .cost {
+        margin-bottom: 30px;
+    }
+
+    .form__title {
+        margin-bottom: 15px;
+    }
+
+    .form__contact {
+        gap: 5px;
+    }
+}
+
+@media (max-width: 576px) {
+    .date {
+        width: 140px;
+    }
+
+    .contact-form {
+        margin-top: 50px;
+    }
+
+    .contact-form__content {
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+
+    .contact-form__info {
+        max-width: 100%;
+    }
+
+    .form {
+        max-width: 375px;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .form__submit {
+        width: 100%;
+    }
+}

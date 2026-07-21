@@ -8,6 +8,7 @@
 @import "components/our-trip.css";
 @import "components/hotel.css";
 @import "components/price.css";
+@import "components/contact-form.css";
 
 .container{
     max-width: 1230px;
