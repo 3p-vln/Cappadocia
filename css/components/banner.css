@@ -1,6 +1,6 @@
 .banner{
     aspect-ratio: 16/9;
-    background-image: url('../../img/main.jpg');
+    background-image: url("../../img/main.webp") ,url('../../img/main.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

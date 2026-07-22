@@ -1,5 +1,5 @@
 .footer{
-    background: url("../../img/footer-bg.jpg");
+    background: url("../../img/footer-bg.webp") ,url("../../img/footer-bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

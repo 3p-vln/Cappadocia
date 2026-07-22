@@ -61,15 +61,24 @@
       <div class="info__swiper swiper">
         <div class="swiper-wrapper">
           <div class="swiper-slide">
-            <img src="img/fairy-tail-swiper/first-img.jpg" alt="first picture" class="swiper__img">
+            <picture>
+              <source srcset="img/fairy-tail-swiper/first-img.webp" type="webp" />
+              <img src="img/fairy-tail-swiper/first-img.jpg" type="jpg" alt="first picture" class="swiper__img" loading="lazy" />
+            </picture>
           </div>
 
           <div class="swiper-slide">
-            <img src="img/fairy-tail-swiper/second-img.jpg" alt="second picture" class="swiper__img">
+            <picture>
+              <source srcset="img/fairy-tail-swiper/second-img.webp" type="webp" />
+              <img src="img/fairy-tail-swiper/second-img.jpg" type="jpg" alt="second picture" class="swiper__img" loading="lazy" />
+            </picture>
           </div>
 
           <div class="swiper-slide">
-            <img src="img/fairy-tail-swiper/third-img.jpg" alt="third picture" class="swiper__img">
+            <picture>
+              <source srcset="img/fairy-tail-swiper/third-img.webp" type="webp" />
+              <img src="img/fairy-tail-swiper/third-img.jpg" type="jpg" alt="third picture" class="swiper__img" loading="lazy" />
+            </picture>
           </div>
         </div>
 
@@ -178,15 +187,24 @@
     <div class="our-trip__swiper swiper">
       <div class="swiper-wrapper">
         <div class="swiper-slide">
-          <img src="img/our-trip-swiper/first-img.jpg" alt="first picture" class="swiper__img">
+          <picture>
+            <source srcset="img/our-trip-swiper/first-img.webp" type="webp" />
+            <img src="img/our-trip-swiper/first-img.jpg" type="jpg" alt="first picture" class="swiper__img" loading="lazy" />
+          </picture>
         </div>
 
         <div class="swiper-slide">
-          <img src="img/our-trip-swiper/second-img.jpg" alt="second picture" class="swiper__img">
+          <picture>
+            <source srcset="img/our-trip-swiper/second-img.webp" type="webp" />
+            <img src="img/our-trip-swiper/second-img.jpg" type="jpg" alt="second picture" class="swiper__img" loading="lazy" />
+          </picture>
         </div>
 
         <div class="swiper-slide">
-          <img src="img/our-trip-swiper/third-img.jpg" alt="third picture" class="swiper__img">
+          <picture>
+            <source srcset="img/our-trip-swiper/third-img.webp" type="webp" />
+            <img src="img/our-trip-swiper/third-img.jpg" type="jpg" alt="third picture" class="swiper__img" loading="lazy" />
+          </picture>
         </div>
       </div>
 
@@ -208,29 +226,56 @@
         <h3 class="hotel__subtitle">Sultan Cave Suites</h3>
 
         <div class="hotel__info about">
-          <img src="img/hotel/main-table.jpg" class="about__main-img">
-
-          <div class="about__text">
-            <p class="about__info">
-              У цьому унікальному готелі на вершині пагорба Айдинли ви можете забронювати висічені в скелі номери, обставлені
-              антикварними меблями з усієї Туреччини. З сонячної тераси готелю відкривається чудовий панорамний вид на
-              Національний парк Гереме.
-            </p>
-
-            <p class="about__info">Більшість номерів готелю Sultan Cave Suites висічені в скелі, що забезпечує прохолоду та
-              спокій. Всі номери обладнані вітальнею і сучасною ванною кімнатою. У більшості з них є власна тераса або балкон.
-            </p>
-
-            <p class="about__info">Готель Cave Suites Sultan має вишуканий ресторан, де подають фірмові страви регіону
-              Каппадокії. Після вечері, пройшовши на терасу, ви зможете замовити напій та помилуватися заходом сонця над селом.
-            </p>
+          <div class="about__main-img">
+            <picture>
+              <source srcset="img/hotel/main-table.webp" type="webp" />
+              <img src="img/hotel/main-table.jpg" type="jpg" alt="main table" class="about__table" loading="lazy" />
+            </picture>
           </div>
 
-          <div class="about__grid">
-            <img src="img/hotel/first-grid.jpg" alt="first grid" class="about__img">
-            <img src="img/hotel/second-grid.jpg" alt="second grid" class="about__img">
-            <img src="img/hotel/third-grid.jpg" alt="third grid" class="about__img">
-            <img src="img/hotel/fourth-grid.jpg" alt="fourth grid" class="about__img">
+          <div class="about__content">
+            <div class="about__text">
+              <p class="about__info">
+                У цьому унікальному готелі на вершині пагорба Айдинли ви можете забронювати висічені в скелі номери, обставлені
+                антикварними меблями з усієї Туреччини. З сонячної тераси готелю відкривається чудовий панорамний вид на
+                Національний парк Гереме.
+              </p>
+
+              <p class="about__info">Більшість номерів готелю Sultan Cave Suites висічені в скелі, що забезпечує прохолоду та
+                спокій. Всі номери обладнані вітальнею і сучасною ванною кімнатою. У більшості з них є власна тераса або балкон.
+              </p>
+
+              <p class="about__info">Готель Cave Suites Sultan має вишуканий ресторан, де подають фірмові страви регіону
+                Каппадокії. Після вечері, пройшовши на терасу, ви зможете замовити напій та помилуватися заходом сонця над селом.
+              </p>
+            </div>
+
+            <div class="about__grid">
+              <div class="about__img">
+                <picture>
+                  <source srcset="img/hotel/first-grid.webp" type="webp" />
+                  <img src="img/hotel/first-grid.jpg" type="jpg" alt="first picture" loading="lazy" />
+                </picture>
+              </div>
+              <div class="about__img">
+                <picture>
+                  <source srcset="img/hotel/second-grid.webp" type="webp" />
+                  <img src="img/hotel/second-grid.jpg" type="jpg" alt="second picture" loading="lazy" />
+                </picture>
+              </div>
+              <div class="about__img">
+                <picture>
+                  <source srcset="img/hotel/third-grid.webp" type="webp" />
+                  <img src="img/hotel/third-grid.jpg" type="jpg" alt="third picture" loading="lazy" />
+                </picture>
+              </div>
+              <div class="about__img">
+                <picture>
+                  <source srcset="img/hotel/fourth-grid.webp" type="webp" />
+                  <img src="img/hotel/fourth-grid.jpg" type="jpg" alt="fourth picture" loading="lazy" />
+                </picture>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -336,7 +381,10 @@
         </div>
 
         <div class="contact-form__img">
-          <img src="img/form-img.jpg" alt="contact-form">
+          <picture>
+            <source srcset="img/form-img.webp" type="webp" />
+            <img src="img/form-img.jpg" type="jpg" alt="contact form" loading="lazy" />
+          </picture>
         </div>
       </div>
     </div>
